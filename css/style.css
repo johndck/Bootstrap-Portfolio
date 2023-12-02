@@ -1,0 +1,64 @@
+/* Here are the fonts to be used on this portfolio page */
+
+@font-face {
+  font-family: "Gambarino-Regular";
+  src: url("../fonts/gambarino/Gambarino-Regular.woff2") format("woff2"),
+    url("../fonts/gambarino/Gambarino-Regular.woff") format("woff"),
+    url("../fonts/gambarino/Gambarino-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gambarino-Regular";
+  src: url("../fonts/gambarino/Gambarino-Regular.woff2") format("woff2"),
+    url("../fonts/gambarino/Gambarino-Regular.woff") format("woff"),
+    url("../fonts/gambarino/Gambarino-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../fonts/jet/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: regular;
+}
+
+/* End of fonts */
+
+:root {
+  /* === CSS Variables === */
+
+  --sitebackground: rgba(235, 235, 235, 1);
+  --siteblue: rgba(20, 110, 246, 1);
+  --btnText: white;
+  --btnHover: orange;
+  --cardgrey: rgba(224, 224, 224, 1);
+  --tagtext: white;
+  --tagcolor: black;
+  --sitecontrastblue: rgba(191, 207, 233, 1);
+
+  background: var(--sitebackground);
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--sitebackground);
+}
+
+h1 {
+  font-family: "Gambarino-Regular", sans-serif;
+  font-size: 9rem;
+  font-weight: 400;
+  line-height: 9.875rem;
+}
