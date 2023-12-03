@@ -69,7 +69,14 @@ h2 {
   font-family: "Gambarino-Regular", sans-serif;
   font-size: clamp(2rem, 8vw + 1rem, 3.815rem);
   font-weight: 500;
-  line-height: 4.1875rem;
+  line-height: 4rem;
+}
+
+h3 {
+  font-family: "Gambarino-Regular", sans-serif;
+  font-size: clamp(1.5rem, 8vw + 1rem, 2.5rem);
+  font-weight: 500;
+  line-height: 4rem;
   padding-bottom: 1rem;
 }
 
@@ -153,6 +160,7 @@ p {
 
 .footer-links {
   color: var(--siteblue);
+  text-decoration: none;
 }
 
 .version {
