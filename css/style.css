@@ -64,7 +64,7 @@ h1 {
 }
 
 .jd-navicon {
-  width: 2rem;
+  width: 3rem;
   border-radius: 50%;
 }
 
@@ -82,4 +82,15 @@ h1 {
 
 .showcase {
   background: var(--darkworklight);
+}
+
+.bluefooter {
+  background-color: rgba(191, 207, 233, 1);
+}
+
+/* control the spacing and formatting of the badges */
+
+.badge-customs {
+  margin-right: 0.4rem;
+  background-color: var(--tagcolor);
 }
