@@ -57,15 +57,53 @@ body {
   background: var(--sitebackground);
 }
 
+/* Fonts */
+
 h1 {
   font-family: "Gambarino-Regular", sans-serif;
   font-size: clamp(2rem, 10vw + 1rem, 7rem);
   font-weight: 400;
 }
 
+h2,
+.hero-subtitle {
+  font-family: "Gambarino-Regular", sans-serif;
+  font-size: 3.8125rem;
+  font-weight: 500;
+  line-height: 4.1875rem;
+  padding-bottom: 1.2rem;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+}
+
+.quote {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.about-summary {
+  width: 70%;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.about-detail {
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .jd-navicon {
   width: 3rem;
   border-radius: 50%;
+}
+
+.navlinkcust {
+  font-family: "Manrope", sans-serif;
 }
 
 .hero-img {
@@ -84,6 +122,12 @@ h1 {
   background: var(--darkworklight);
 }
 
+/* card background */
+
+.card-bg-color {
+  background: var(--cardgrey);
+}
+
 .bluefooter {
   background-color: rgba(191, 207, 233, 1);
 }
@@ -93,6 +137,8 @@ h1 {
 .badge-customs {
   margin-right: 0.4rem;
   background-color: var(--tagcolor);
+  font-family: "Manrope", sans-serif;
+  font-size: 0.8rem;
 }
 
 .about-me-content {
@@ -104,4 +150,14 @@ h1 {
 .skills-breakdown {
   display: flex;
   flex-direction: column;
+}
+
+.footer-links {
+  color: var(--siteblue);
+}
+
+.version {
+  font-family: "Jet Brains Mono", monospace;
+  padding-bottom: 1rem;
+  font-size: 0.75rem;
 }
