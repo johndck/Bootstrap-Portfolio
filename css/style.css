@@ -45,6 +45,7 @@
   --tagtext: white;
   --tagcolor: black;
   --sitecontrastblue: rgba(191, 207, 233, 1);
+  --darkworklight: rgba(102, 102, 102, 1);
 
   background: var(--sitebackground);
   font-size: 16px;
@@ -58,7 +59,38 @@ body {
 
 h1 {
   font-family: "Gambarino-Regular", sans-serif;
-  font-size: 9rem;
+  font-size: clamp(2rem, 10vw + 1rem, 7rem);
   font-weight: 400;
-  line-height: 9.875rem;
+}
+
+.jd-navicon {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.hero-img {
+  background-image: url("../images/hero-jd.png");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-blue {
+  color: var(--siteblue);
+}
+
+.showcase {
+  background: var(--darkworklight);
+}
+
+.bluefooter {
+  background-color: rgba(191, 207, 233, 1);
+}
+
+/* control the spacing and formatting of the badges */
+
+.badge-customs {
+  margin-right: 0.4rem;
+  background-color: var(--tagcolor);
 }
