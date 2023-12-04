@@ -159,8 +159,12 @@ p {
   flex-direction: column;
 }
 
+.footer-links {
+  padding-right: 3rem;
+}
+
 .footer-links:hover {
-  scale: 1.1;
+  scale: 1.01;
 }
 
 .version {
