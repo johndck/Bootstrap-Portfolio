@@ -159,9 +159,8 @@ p {
   flex-direction: column;
 }
 
-.footer-links {
-  color: var(--siteblue);
-  text-decoration: none;
+.footer-links:hover {
+  scale: 1.1;
 }
 
 .version {
