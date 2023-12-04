@@ -29,8 +29,8 @@ done ✔︎
 
     - A footer section.
 
-​ - All hyperlinks should have a hover effect.
+​ - All hyperlinks should have a hover effect. Yes, some.
 
-​ - All buttons should display a box shadow upon hover. done ✔︎
+​ - All buttons should display a box shadow upon hover. - + change colour & border radius size - done ✔︎
 ​ 5. Your Bootstrap solution should minimize use of media queries. done ✔︎ (there are none used)
 ​ 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages. done ✔︎

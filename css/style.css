@@ -57,7 +57,7 @@ body {
   background: var(--sitebackground);
 }
 
-/* Fonts */
+/* Fonts sizes */
 
 h1 {
   font-family: "Gambarino-Regular", sans-serif;
@@ -105,13 +105,17 @@ p {
 }
 
 .jd-navicon {
-  width: 3rem;
+  width: 4rem;
   border-radius: 50%;
 }
+
+/* Nav link font family */
 
 .navlinkcust {
   font-family: "Manrope", sans-serif;
 }
+
+/* Hero background image */
 
 .hero-img {
   background-image: url("../images/hero-jd.png");
@@ -121,9 +125,13 @@ p {
   background-size: cover;
 }
 
+/* highlight *blue color */
+
 .title-blue {
   color: var(--siteblue);
 }
+
+/* dark section for showcase */
 
 .showcase {
   background: var(--darkworklight);
@@ -134,6 +142,8 @@ p {
 .card-bg-color {
   background: var(--cardgrey);
 }
+
+/* footer background color */
 
 .bluefooter {
   background-color: rgba(191, 207, 233, 1);
@@ -159,19 +169,7 @@ p {
   flex-direction: column;
 }
 
-.footer-links {
-  padding-right: 3rem;
-}
-
-.footer-links:hover {
-  scale: 1.01;
-}
-
-.version {
-  font-family: "Jet Brains Mono", monospace;
-  padding-bottom: 1rem;
-  font-size: 0.75rem;
-}
+/* for button on BHAG section */
 
 .contact-btn {
   background-color: var(--siteblue);
@@ -191,4 +189,20 @@ p {
   color: white;
   padding: 0.75rem 2rem 0.75rem 2rem;
   border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.footer-links {
+  padding-right: 3rem;
+}
+
+.footer-links:hover {
+  scale: 1.01;
+}
+
+.version {
+  font-family: "Jet Brains Mono", monospace;
+  padding-bottom: 1rem;
+  font-size: 0.75rem;
 }
